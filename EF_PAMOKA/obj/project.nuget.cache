@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xXU4+aeo6uui9Yw5qxiHXMvazOVrlEx0DBm7rN22MZnYciuZlcFyzF9zI1Vt48Wz4cqKDMCNPlZbVwNIkcoqQw==",
+  "dgSpecHash": "faaXOF/9MZecq2iAPJ42GAxEUMcQW+7iklMyKhDtvV5nA4v90qXaDBq7MDXJccfnMxz6IE50qx9aplYgSdLtTw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zydru\\source\\repos\\EF_PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj",
+  "projectFilePath": "C:\\Users\\zydru\\Documents\\GitHub\\EF-PAMOKA\\EF_PAMOKA\\EF_PAMOKA.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zydru\\.nuget\\packages\\bcrypt.net-next\\3.5.0\\bcrypt.net-next.3.5.0.nupkg.sha512",
     "C:\\Users\\zydru\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

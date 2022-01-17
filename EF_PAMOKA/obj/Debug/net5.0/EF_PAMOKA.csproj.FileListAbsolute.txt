@@ -35,3 +35,11 @@ C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\obj\Debug\net5.0\EF_PAMOKA.pdb
 C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\obj\Debug\net5.0\EF_PAMOKA.genruntimeconfig.cache
 C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\Humanizer.dll
 C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\BCrypt.Net-Next.dll
+C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\zydru\source\repos\EF_PAMOKA\EF_PAMOKA\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

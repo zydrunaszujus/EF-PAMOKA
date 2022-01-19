@@ -37,12 +37,12 @@ namespace EF_PAMOKA
    {
        options.TokenValidationParameters = new TokenValidationParameters
        {
-           ValidateIssuer = true,
-           ValidateAudience = true,
+           ValidateIssuer = false,//turi buti true
+           ValidateAudience = false,//turi buti true
            ValidateLifetime = true,
            ValidateIssuerSigningKey = true,
-           ValidIssuer = Configuration["Jwt:Issuer"],
-           ValidAudience = Configuration["Jwt:Issuer"],
+           //ValidIssuer = Configuration["Jwt:Issuer"], //sakom koks serveris isduoda localhost
+           //ValidAudience = Configuration["Jwt:Issuer"],
            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration["Jwt:Key"]))
        };
    });

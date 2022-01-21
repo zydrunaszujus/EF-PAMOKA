@@ -1,5 +1,11 @@
 {
   "Version": 1,
-  "ProjectMap": {},
-  "NextColorIndex": 0
+  "ProjectMap": {
+    "6b19e224-7cc2-4c32-9557-ce16a48a68c8": {
+      "ProjectGuid": "6b19e224-7cc2-4c32-9557-ce16a48a68c8",
+      "DisplayName": "EF_PAMOKA",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
 }

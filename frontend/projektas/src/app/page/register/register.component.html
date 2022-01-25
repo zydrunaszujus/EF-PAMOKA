@@ -1,1 +1,19 @@
-<p>register works!</p>
+<form [formGroup]="forma">
+
+    <label for="vartotojo-vardas">Vartotojo vardas: </label>
+    <input id="vartotojo-vardas" type="text" formControlName="vardas">
+
+    <label for="slaptazodis">Iveskite slaptazodis: </label>
+    <input id="slaptazodis" type="password" formControlName="slaptazodis">
+
+    <label for="slaptazodis2">Pakartoti slaptazodi: </label>
+    <input id="slaptazodis2" type="password" formControlName="slaptazodis2">
+
+    <label for="vartotojo-pastas">Vartotojo pastas: </label>
+    <input id="vartotojo-pastas" type="email" pattern="^[^@]+@[^@]+\.[^@]+$" formControlName="pastas">
+    <!--paternas skirtas el pastui,kad neprivedziotu neteisingu pastu-->
+
+    <button type="submit" [disabled]="!forma.valid" (click)="registruotis()">Pateikti</button>
+
+</form>
+<a routerLink="/login">Turite paskyra? PRISIJUNGTI</a>

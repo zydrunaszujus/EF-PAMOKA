@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { ApiService } from 'src/app/api.service';
 
 @Component({
   selector: 'app-register',
@@ -6,10 +8,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./register.component.css']
 })
 export class RegisterComponent implements OnInit {
-
-  constructor() { }
+  forma=new FormGroup({
+    vardas:new FormControl('',Validators.required),
+    slaptazodis:new FormControl('',Validators.required),
+    slaptazodis2:new FormControl('',Validators.required),
+    pastas:new FormControl('',[Validators.required, Validators.email])//kas vesti itk pasta su @,kitaip neuzskaito
+  })
+  constructor(private apiService:ApiService) { }
 
   ngOnInit(): void {
   }
-
+  registruotis(){
+    if(this.forma.value.slaptazodis!=this.forma.value.slaptazodis2){
+      alert("Slatazodis pakartotas neteisingai ir nesutampa!")
+    }
+    else{
+       console.log(this.forma.value)
+    this.apiService.registruotis(this.forma.value)
+    //https://localhost:44325/login
+    }
+   
+  }
 }
